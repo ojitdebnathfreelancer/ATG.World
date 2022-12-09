@@ -1,0 +1,58 @@
+.banner {
+    width: 100%;
+    height: 440px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.6)), url(../../Assets/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.banner .overlay {
+    bottom: 80px;
+    left: 200px;
+}
+
+.banner .overlay h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.banner .overlay p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner .btn-div button {
+    width: 76px;
+    height: 28px;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* main css for banner  */
+
+@media screen and (max-width:575px) {
+    .banner {
+        height: 236px;
+    }
+
+    .banner .overlay {
+        bottom: 32px;
+        left: 16px;
+    }
+
+    .banner .overlay h1 {
+        font-size: 17px;
+    }
+
+    .banner .overlay p {
+        font-size: 12px;
+    }
+}
+
+/* mobile device medai  */

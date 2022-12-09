@@ -1,0 +1,119 @@
+.post {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.post:first-child {
+    margin-top: 0;
+}
+
+.post .type {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.post .title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.post .discription {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.post .visit-button p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.post .visit-button button {
+    outline: none;
+    border: none;
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 8px;
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #E56135;
+}
+
+.post .visit-button2bg {
+    color: #02B875;
+}
+
+.post .user-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.post .view {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post .shear {
+    background: #EDEEF0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.post .shear span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.post .edit {
+    height: 32px;
+    width: 36px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.editbg {
+    background: #BFBFC0;
+}
+
+.post .edit ul {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    width: 160px;
+    height: 102px;
+    padding: 10px;
+    top: 38px;
+    left: -126px;
+}
+
+.post .edit ul li {
+    margin-top: 5px;
+}
+
+/* main css end  */
+
+
+@media screen and (max-width:575px) {
+    .post .type {
+        font-size: 14px;
+    }
+
+    .post .title {
+        font-size: 16px;
+    }
+
+    .post .discription {
+        font-size: 14px;
+    }
+
+    .post .user-name {
+        font-size: 13px;
+    }
+}

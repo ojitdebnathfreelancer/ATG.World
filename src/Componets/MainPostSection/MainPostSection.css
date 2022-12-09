@@ -1,0 +1,140 @@
+.main-post-section {
+    max-width: 1040px;
+}
+
+.main-post-section .top-header {
+    margin-top: 28px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.main-post-section .top-header ul li {
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8A8A8A;
+}
+
+.main-post-section .top-header .post-btn button {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #EDEEF0;
+}
+
+.main-post-section .top-header .post-btn button.btn-bg1 {
+    margin-right: 15px;
+    background-color: #EDEEF0;
+}
+
+.main-post-section .top-header .post-btn button.btn-bg2 {
+    background-color: #2F6CE5;
+    color: white;
+}
+
+.main-post-section .top-header .active {
+    color: black;
+    position: relative;
+}
+
+.main-post-section .top-header .active::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    background-color: black;
+}
+
+.main-post-section .main-post {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.main-post-section .main-post .poster-left .phone-post {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.min-btn1 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.min-btn2 {
+    font-weight: 500;
+    font-size: 13px;
+    background: #F1F3F5;
+    padding: 5px 10px;
+}
+
+/* main css of poster left end*/
+
+.poster-right .center-dive {
+    width: 243px;
+}
+
+.poster-right .location label {
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.poster-right .location label input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.poster-right .location label input::placeholder {
+    color: #B8B8B8;
+}
+
+.poster-right .location label span:last-child {
+    cursor: pointer;
+}
+
+.poster-right .location p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.poster-right .user-list p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.poster-right .user-list .list button {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.poster-right .user-list .list span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media screen and (max-width:575px) {
+    .main-post-section .top-header {
+        border-bottom: none;
+    }
+}
+
+/* mobile device css  */

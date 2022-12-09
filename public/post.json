@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/CvbnDrn/post1.png",
+        "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+        "discription": "I have worked in UX for the better part of a decade. From now on, I plan to rei… ",
+        "type": "✍️ Article",
+        "userImg": "https://i.ibb.co/MgT5pCX/user1.png",
+        "userName": "Sarthak Kamra",
+        "views": "1.4k"
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/pxvdXfy/post2.png",
+        "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+        "discription": "I have worked in UX for the better part of a decade. From now on, I plan to rei… ",
+        "type": "🔬️ Education",
+        "userImg": "https://i.ibb.co/jW3C71d/user2.png",
+        "userName": "Sarah West",
+        "views": "1.4k"
+    }
+]
